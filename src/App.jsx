@@ -15,7 +15,7 @@ function App() {
           />
         ))}
       </div>
-      <footer className="footer">©Supratim</footer>
+      <footer className="footer">© Supratim</footer>
     </>
   )
 }
