@@ -92,9 +92,22 @@ img[style*="cursor: pointer"]:hover {
   }
 }
 
+/* ===== Footer ===== */
+.footer {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: right;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
+  }
+  .footer {
+    color: rgba(0, 0, 0, 0.5);
   }
 }
