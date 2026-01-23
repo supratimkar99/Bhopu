@@ -1,19 +1,19 @@
-// import { useState } from 'react'
-import './App.css'
 import SoundPlayer from './SoundPlayer';
-import FAAASound from './assets/faaa.mp3';
-import FAAAImage from './assets/images.jpeg';
+import memes from './memes';
 
 function App() {
 
   return (
-    <>
-      <SoundPlayer
-        clickSound={FAAASound}
-        memeImage={FAAAImage}
-        altText="FAAAAAAAAAAAA"
-      />
-    </>
+    <div className="gallery">
+      {Object.entries(memes).map(([key, meme]) => (
+        <SoundPlayer
+          key={key}
+          clickSound={meme.sound}
+          memeImage={meme.image}
+          altText={meme.altText}
+        />
+      ))}
+    </div>
   )
 }
 
