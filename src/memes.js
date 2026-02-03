@@ -6,6 +6,14 @@ import HUHSound from './assets/huh.mp3';
 import HUHImage from './assets/huh.jpg';
 import LaughSound from './assets/laugh.mp3';
 import LaughImage from './assets/laugh.jpg';
+import OKAYSound from './assets/okay.mp3';
+import OKAYImage from './assets/okay.jpg';
+import NICESound from './assets/nice.mp3';
+import NICEImage from './assets/nice.jpg';
+import KyaHoGayaImage from './assets/KyaHoGaya.jpg';
+import KyaHoGayaSound from './assets/KyaHoGaya.mp3';
+import AADISound from './assets/aadi.mp3';
+import AADIImage from './assets/aadi.png';
 
 const memes = {
   faaa: {
@@ -27,6 +35,26 @@ const memes = {
     image: LaughImage,
     sound: LaughSound,
     altText: "Laugh"
+  },
+  okay: {
+    image: OKAYImage,
+    sound: OKAYSound,
+    altText: "Okay"
+  },
+  nice: {
+    image: NICEImage,
+    sound: NICESound,
+    altText: "Nice"
+  },
+  kyaHoGaya: {
+    image: KyaHoGayaImage,
+    sound: KyaHoGayaSound,
+    altText: "Ye Sab Kya Ho Gaya Aadi"
+  },
+  aadi: {
+    image: AADIImage,
+    sound: AADISound,
+    altText: "Aadiiiiii"
   }
 };
 
