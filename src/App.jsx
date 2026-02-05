@@ -1,12 +1,17 @@
 // App.jsx
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import SoundPlayer from './SoundPlayer';
 import memes from './memes';
+import { preloadGifs } from './preloadGifs';
 
 function App() {
   const [lastClicked, setLastClicked] = useState(null);
   const [activeGifKey, setActiveGifKey] = useState(null);
   const timeoutRef = useRef(null);
+
+  useEffect(() => {
+    preloadGifs();
+  }, []);
 
   const handleClick = (key, duration) => {
     setLastClicked(key);
