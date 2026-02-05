@@ -35,6 +35,12 @@ body {
   margin-left: 2rem;
 }
 
+@supports (font-tech(color-COLRv1)) {
+  .header-title {
+    font-family: "Tilt Prism", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  }
+}
+
 .header-copyright {
   font-size: 0.75rem;
   color: rgba(255, 255, 255, 0.5);
