@@ -3,6 +3,7 @@ import { useState, useRef, useEffect } from 'react';
 import SoundPlayer from './SoundPlayer';
 import memes from './memes';
 import { preloadGifs } from './preloadGifs';
+import { trackVisit } from './analytics/trackVisit';
 
 function App() {
   const [lastClicked, setLastClicked] = useState(null);
@@ -11,6 +12,7 @@ function App() {
 
   useEffect(() => {
     preloadGifs();
+    trackVisit();
   }, []);
 
   const handleClick = (key, duration) => {
