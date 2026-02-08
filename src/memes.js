@@ -38,6 +38,13 @@ import OIIAGif from './assets/oiia.gif';
 import YAPAPASound from './assets/yapapa.mp3';
 import YAPAPAImage from './assets/yapapa.jpg';
 import YAPAPAGif from './assets/yapapa.gif';
+import ModiJiSound from './assets/modiji.mp3';
+import ModiJiImage from './assets/modiji.png';
+import GaandFattGayaSound from './assets/GaandFattGaya.mp3';
+import GaandFattGayaImage from './assets/GaandFattGaya.png';
+import GaandFattGayaGif from './assets/GaandFattGaya.gif';
+import GAESound from './assets/gae.mp3';
+import GAEImage from './assets/gae.png';
 
 const memes = {
   faaa: {
@@ -133,10 +140,27 @@ const memes = {
     sound: AmmaBehnSound,
     altText: "Amma Behn Pe Aa Jaunga Main Inki"
   },
-    gopgop: {
+  gaandFattGaya: {
+    image: GaandFattGayaImage,
+    sound: GaandFattGayaSound,
+    altText: "Gaand PHatt Gaya",
+    gif: GaandFattGayaGif,
+    duration: 2750,
+  },
+  gopgop: {
     image: GOPGOPImage,
     sound: GOPGOPSound,
   },
+  modiji: {
+    image: ModiJiImage,
+    sound: ModiJiSound,
+    altText: "Behn Ke Lode"
+  },
+  gae: {
+    image: GAEImage,
+    sound: GAESound,
+    altText: "Gaeee!"
+  }
 };
 
 export default memes;
