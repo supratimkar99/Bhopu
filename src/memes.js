@@ -45,6 +45,24 @@ import GaandFattGayaImage from './assets/GaandFattGaya.png';
 import GaandFattGayaGif from './assets/GaandFattGaya.gif';
 import GAESound from './assets/gae.mp3';
 import GAEImage from './assets/gae.png';
+import MKBAagImage from './assets/MkbAag.jpg';
+import MKBAagSound from './assets/MkbAag.mp3';
+import RandyKhanaImage from './assets/YeKoiRandyKhanaHai.jpg';
+import RandyKhanaSound from './assets/YeKoiRandyKhanaHai.mp3';
+import JEFFImage from './assets/MyNameIsJeff.jpg';
+import JEFFSound from './assets/MyNameIsJeff.mp3';
+import NannaNiNaareSound from './assets/NannaNiNaare.mp3';
+import NannaNiNaareImage from './assets/NannaNiNaare.jpg';
+import SIUUUSound from './assets/siuuu.mp3';
+import SIUUUImage from './assets/siuuu.jpg';
+import QueMirasBoboSound from './assets/QueMirasBobo.mp3';
+import QueMirasBoboImage from './assets/QueMirasBobo.jpg';
+import BandKaroSound from './assets/BandKaro.mp3';
+import BandKaroImage from './assets/BandKaro.jpg';
+import CocaineImage from './assets/cocaine.jpg';
+import CocaineSound from './assets/cocaine.mp3';
+import DayumnImage from './assets/Dayumn.jpg';
+import DayumnSound from './assets/Dayumn.mp3';
 
 const memes = {
   faaa: {
@@ -160,7 +178,52 @@ const memes = {
     image: GAEImage,
     sound: GAESound,
     altText: "Gaeee!"
-  }
+  },
+  mkbAag: {
+    image: MKBAagImage,
+    sound: MKBAagSound,
+    altText: "Maa Ka Bhosda Aag!"
+  },
+  randyKhana: {
+    image: RandyKhanaImage,
+    sound: RandyKhanaSound,
+    altText: "Ye Koi Randi Khana Hai!"
+  },
+  jeff: {
+    image: JEFFImage,
+    sound: JEFFSound,
+    altText: "My Name Is Jeff"
+  },
+  nannaNiNaare: {
+    image: NannaNiNaareImage,
+    sound: NannaNiNaareSound,
+    altText: "Nanna Ni Naare"
+  },
+  siuuu: {
+    image: SIUUUImage,
+    sound: SIUUUSound,
+    altText: "SIUUU!"
+  },
+  queMirasBobo: {
+    image: QueMirasBoboImage,
+    sound: QueMirasBoboSound,
+    altText: "Que Miras Bobo?"
+  },
+  bandKaro: {
+    image: BandKaroImage,
+    sound: BandKaroSound,
+    altText: "Band Karo!"
+  },
+  cocaine: {
+    image: CocaineImage,
+    sound: CocaineSound,
+    altText: "Saali Chalti Phirti Cocaine Hai Cocaineeeee!"
+  },
+  dayumn: {
+    image: DayumnImage,
+    sound: DayumnSound,
+    altText: "Dayumn!"
+  },
 };
 
 export default memes;
