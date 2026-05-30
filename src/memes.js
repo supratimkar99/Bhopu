@@ -61,8 +61,8 @@ import BandKaroSound from './assets/BandKaro.mp3';
 import BandKaroImage from './assets/BandKaro.jpg';
 import CocaineImage from './assets/cocaine.jpg';
 import CocaineSound from './assets/cocaine.mp3';
-import DayumnImage from './assets/Dayumn.jpg';
-import DayumnSound from './assets/Dayumn.mp3';
+import DayumnImage from './assets/dayumn.jpg';
+import DayumnSound from './assets/dayumn.mp3';
 
 const memes = {
   faaa: {
