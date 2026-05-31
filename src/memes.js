@@ -22,8 +22,8 @@ import BEHNCHOImage from './assets/behncho.jpeg';
 import YehLeSound from './assets/yehle.mp3';
 import YehLeImage from './assets/yehle.png';
 import YehLeGif from './assets/yehle.gif';
-import OmgWowSound from './assets/OmgWow.mp3';
-import OmgWowImage from './assets/OmgWow.jpg';
+// import OmgWowSound from './assets/OmgWow.mp3';
+// import OmgWowImage from './assets/OmgWow.jpg';
 import SUSSound from './assets/sus.mp3';
 import SUSImage from './assets/sus.jpg';
 import FARTSound from './assets/fart.mp3';
@@ -63,6 +63,8 @@ import CocaineImage from './assets/cocaine.jpg';
 import CocaineSound from './assets/cocaine.mp3';
 import DayumnImage from './assets/dayumn.jpg';
 import DayumnSound from './assets/dayumn.mp3';
+import LavanenaBhojyamSound from './assets/LavanenaBhojyam.mp3';
+import LavanenaBhojyamImage from './assets/LavanenaBhojyam.jpg';
 
 const memes = {
   faaa: {
@@ -138,11 +140,11 @@ const memes = {
     sound: OKAYSound,
     altText: "Okay"
   },
-  omgWow: {
-    image: OmgWowImage,
-    sound: OmgWowSound,
-    altText: "Oh My God, Wow!"
-  },
+  // omgWow: {
+  //   image: OmgWowImage,
+  //   sound: OmgWowSound,
+  //   altText: "Oh My God, Wow!"
+  // },
   sus: {
     image: SUSImage,
     sound: SUSSound,
@@ -224,6 +226,11 @@ const memes = {
     sound: DayumnSound,
     altText: "Dayumn!"
   },
+  lavanenaBhojyam: {
+    image: LavanenaBhojyamImage,
+    sound: LavanenaBhojyamSound,
+    altText: "Lavanena Bhojyam!"
+  }
 };
 
 export default memes;
