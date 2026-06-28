@@ -427,6 +427,14 @@ export default function WorldCupPredictor() {
         <p>2. If a match goes to penalties: correct prediction = 2 points & incorrect prediction = 1 point.</p>
         <p>3. Predicting the correct champion gets you an additional 2 points.</p>
       </section>
+      
+      <div className="wc-submit-panel wc-submit-panel-top wc-deadline-panel">
+        <p className="wc-deadline-text">Deadline notice</p>
+        <p className="wc-deadline-copy">
+          The deadline was past as of 12:30 AM IST. You can still add your predictions, but you will not receive points for the Round of 32 match between South Africa &amp; Canada.
+        </p>
+        <p className="wc-deadline-copy">Final deadline: 29th June, 10:30 PM IST.</p>
+      </div>
 
       <div className="wc-name-field">
         <label htmlFor="predictor-name">Your name</label>
